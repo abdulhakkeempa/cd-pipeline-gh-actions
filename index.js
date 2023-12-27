@@ -5,7 +5,7 @@ app.get('/', function (req, res) {
     res.send('{ "response": "Hello From Thetips4you" }');
 });
 
-app.get('/will', function (req, res) {
+app.get('/hello', function (req, res) {
     res.send('{ "response": "Hello World" }');
 });
 app.get('/ready', function (req, res) {
